@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "baseURL: "https://projectpulse-api-024o.onrender.com"",
+    baseURL:"https://projectpulse-api-024o.onrender.com",
 });
 
 api.interceptors.request.use((config) => {
